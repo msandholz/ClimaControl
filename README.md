@@ -5,7 +5,12 @@ https://randomnerdtutorials.com/esp32-send-messages-whatsapp/
 
 bold: *
 Newline: %0A
-Emoji: %F0%9F%92%A6%20
+Space: %20
+Emoji: %F0%9F%92%A6
+SoS:%F0%9F%86%98
+Achtung: %E2%9A%A0
+Light bulb: %F0%9F%92%A1
+CHEERING MEGAPHONE: %F0%9F%93%A3
 
 https://api.callmebot.com/whatsapp.php?phone=491719348490&apikey=6942851&text=*ClimaControl:*%0ATemp+is+under+20%C2%B0C!%0Ahttp://192.168.178.131
 
