@@ -1,4 +1,18 @@
 
+1.14" ST7789V IPS-LCD:
+Resolution: 135 x 240, high density 260 ppi
+4-wire SPI interface, working power supply: 3.3V
+Full color TFT display with 1.14" diagonal, drive: ST7789
+
+
+Installation instructions are really bad. I had it working at some point and then the screen was dead.
+2 weeks after i found why...
+Change the following lines in the User_Setup_Select.h file...
+in c:\Users\<%username%>\Documents\Arduino\libraries\TFT_eSPI\
+//#include <User_Setup.h> // Default setup is root library folder
+#include <User_Setups/Setup25_TTGO_T_Display.h> // Setup file for ESP32 and TTGO T-Display ST7789V SPI bus TFT
+
+
 ESP32: Send Messages to WhatsApp
 https://randomnerdtutorials.com/esp32-send-messages-whatsapp/
 
